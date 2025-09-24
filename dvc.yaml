@@ -7,4 +7,9 @@ stages:
     outs:
     - iris_clean.csv
   train:
-    cmd: \
+    cmd: python src/train.py
+    deps:
+    - iris_clean.csv
+    - src/train.py
+    outs:
+    - model.pkl

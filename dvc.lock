@@ -16,3 +16,19 @@ stages:
       hash: md5
       md5: e51941153fde159349b669ec81c69bc3
       size: 4133
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: iris_clean.csv
+      hash: md5
+      md5: e51941153fde159349b669ec81c69bc3
+      size: 4133
+    - path: src/train.py
+      hash: md5
+      md5: 4307b7f7a4c91091f2d43fd4e78485f8
+      size: 337
+    outs:
+    - path: model.pkl
+      hash: md5
+      md5: 758255ec85e7949ccc86c5a3ca71a3f9
+      size: 190513
