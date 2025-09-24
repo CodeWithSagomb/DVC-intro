@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python src/preprocess.py
+    deps:
+    - path: iris.json
+      hash: md5
+      md5: f80331e887130b877571d6b625b16551
+      size: 15802
+    - path: src/preprocess.py
+      hash: md5
+      md5: b0c45c375d940cbf9477714c6c5b1d83
+      size: 611
+    outs:
+    - path: iris_clean.csv
+      hash: md5
+      md5: e51941153fde159349b669ec81c69bc3
+      size: 4133

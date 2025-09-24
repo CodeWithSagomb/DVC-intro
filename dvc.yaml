@@ -1,0 +1,8 @@
+stages:
+  preprocess:
+    cmd: python src/preprocess.py
+    deps:
+    - iris.json
+    - src/preprocess.py
+    outs:
+    - iris_clean.csv

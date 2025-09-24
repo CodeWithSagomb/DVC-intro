@@ -25,3 +25,4 @@ env/
 #.\venv\Scripts\activate
 #python -m venv venv
 /iris.json
+/iris_clean.csv
