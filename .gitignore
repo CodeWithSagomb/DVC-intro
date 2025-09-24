@@ -8,11 +8,7 @@ __pycache__/
 venv/
 env/
 
-# Datasets
-data/
-dataset/
-*.csv
-*.txt
+
 
 # Machine Learning Models
 *.h5
