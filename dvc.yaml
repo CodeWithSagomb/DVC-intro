@@ -6,3 +6,5 @@ stages:
     - src/preprocess.py
     outs:
     - iris_clean.csv
+  train:
+    cmd: \
